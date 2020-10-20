@@ -5,6 +5,17 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #f1f1f1;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #accueil {
     background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
     width: 100%;
@@ -16,11 +27,11 @@ html, body {
 }
 
 #presentation {
-    background: linear-gradient(to right, #2b5876, #4e4376);
+    background: linear-gradient(to right, #ffeeee, #ddefbb);
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #f1f1f1;
+    color: #000;
 }
