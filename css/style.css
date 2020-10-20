@@ -33,6 +33,7 @@ header {
     justify-content: space-between;
     align-items: center;
     transition-duration: 0.3s;
+    z-index: 25;
 }
 
 .header1 {

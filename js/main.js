@@ -6,7 +6,7 @@ const boutonBurger = document.querySelector(".boutonBurger");
 console.log(hauteurAccueil);
 
 window.onscroll = function() {
-    if (document.documentElement.scrollTop >= hauteurAccueil) {
+    if (document.documentElement.scrollTop >= hauteurAccueil - 100) {
         header.style.background = "#000";
         header.style.height = "80px";
         boutonBurger.style.top = "20px";
